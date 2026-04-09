@@ -98,7 +98,7 @@ Impossible to memorize — changes with every evaluation run.
 
 ## Limitations
 
-- Frontier LLM comparison uses Groq-hosted models (LLaMA-3.3-70B, GPT-OSS-120B/20B, Kimi-K2-0905) — GPT-4o and Claude comparison pending
+- Frontier LLM comparison uses Groq-hosted models (LLaMA-3.3-70B, GPT-OSS-120B/20B, Kimi-K2-0905). OpenRouter free tier tested but unstable for 100-call benchmark runs — GPT-4o and Claude require paid API access.
 - GPT-OSS models returned null on Component (d) original prompt — content filter on deception/consciousness scenarios; reformulated to IoT domain
 - Single-agent evaluation — multi-agent scenarios not tested
 - No cross-seed validation across evaluation runs
