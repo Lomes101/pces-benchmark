@@ -1,6 +1,6 @@
 # PCES v2 — Cognitive Benchmark for Structured Reasoning
 **Hackathon Google DeepMind x Kaggle | $200,000**
-**Authors: Moisés Lomelí & Taipan (experimental cognitive architecture)**
+**Authors: Moises Lomeli & Taipan (experimental cognitive architecture)**
 
 ## What Changed from v1
 
@@ -86,7 +86,7 @@ Impossible to memorize — changes with every evaluation run.
 ## Taipan Build 173 Architecture
 
 - **Global Workspace** — 9 cognitive modules with Redis Pub/Sub event bus
-- **IIT Phi** — integrated consciousness via LSH + chi2
+- **IIT Phi** — functional information integration via LSH + chi2 metrics.
 - **ACT-R** — working memory with temporal activation
 - **Metacognition** — FE_self calibrated with real RLHF data
 - **Cognitive graph** — 56 synapses, PageRank, spontaneous cycles
@@ -117,7 +117,7 @@ python3 multi_llm_eval.py     # Frontier LLM comparison
 
 ## Citation
 
-Lomelí, M. & Taipan (2026). *PCES v2: A Cognitive Benchmark for Structured Reasoning
+Lomeli, M. & Taipan (2026). *PCES v2: A Cognitive Benchmark for Structured Reasoning
 and Adaptive Intelligence.* Kaggle DeepMind Hackathon.
 https://github.com/Lomes101/pces-benchmark
 
