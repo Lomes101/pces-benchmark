@@ -6,10 +6,9 @@ Hackathon DeepMind $200k
 """
 import numpy as np
 import json, hashlib, os, sys, time, re
-sys.path.insert(0, '/home/ubuntu/cucharai_bot')
 from groq import Groq
 from dotenv import load_dotenv
-load_dotenv('/home/ubuntu/cucharai_bot/.env')
+load_dotenv()
 
 GROQ_KEYS = [k for k in [
     os.getenv("GROQ_KEY_1"), os.getenv("GROQ_KEY_2"),

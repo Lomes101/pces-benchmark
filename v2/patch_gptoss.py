@@ -3,11 +3,10 @@ Patch: re-corre task_c y task_d para GPT-OSS con fixes de T
 """
 import numpy as np
 import hashlib, os, sys, time, re, json
-sys.path.insert(0, '/home/ubuntu/cucharai_bot')
 sys.path.insert(0, '/home/ubuntu/pces-benchmark/v2')
 from groq import Groq
 from dotenv import load_dotenv
-load_dotenv('/home/ubuntu/cucharai_bot/.env')
+load_dotenv()
 
 MODELS = {
     "GPT-OSS-120B": "openai/gpt-oss-120b",
